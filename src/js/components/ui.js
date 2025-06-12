@@ -58,7 +58,7 @@ export function showEffectPopup(message) {
   setTimeout(() => {
     elements.popup.classList.remove("show");
     setTimeout(() => elements.popup.classList.add("hidden"), 400);
-  }, 2000);
+  }, 3000);
 }
 
 export function showQuiz(skill, player) {

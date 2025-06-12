@@ -47,7 +47,7 @@ export const skillDuryudana = [
       baseDamage: 30,
       bonusDamagePercent: 20, // 20% dari ATK
     },
-    efekText: "Serangan Dahsyat!", // Teks untuk notifikasi
+    efekText: "Damage 30 + 20% dari ATK", // Jelas efeknya
     tipe: "Attack",
     cooldown: 9,
     durasi: null, // Langsung/instant
@@ -59,7 +59,7 @@ export const skillDuryudana = [
     efek: {
       immuneDamage: true,
     },
-    efekText: "Kebal Serangan", // Teks untuk notifikasi
+    efekText: "Immune semua damage selama 3 detik", // Jelas dan informatif
     tipe: "Defence",
     cooldown: 12,
     durasi: 3,
@@ -71,7 +71,7 @@ export const skillDuryudana = [
     efek: {
       atk: 20,
     },
-    efekText: "ATK +20%", // Teks untuk notifikasi
+    efekText: "ATK +20% selama 3 detik", // Format seperti Arjuna
     tipe: "Buff",
     cooldown: 8,
     durasi: 3,
