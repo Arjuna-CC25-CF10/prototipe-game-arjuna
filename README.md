@@ -10,7 +10,7 @@ Sebuah game pertarungan 2D side-scrolling sederhana yang dibangun dengan HTML, C
 
 Penasaran ingin langsung mencoba? Anda bisa memainkan versi live dari game ini melalui link di bawah:
 
-**[>> Mainkan Game Arjuna <<](https://bit.ly/ArjunaGameOnly)**
+**[>> Mainkan Game Arjuna <<](https://chimerical-gnome-33c9b4.netlify.app/)**] 
 
 ---
 
