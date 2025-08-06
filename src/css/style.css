@@ -8,12 +8,11 @@ body {
   color: #fff;
 }
 
-/* PENYESUAIAN KUNCI: #game-root sekarang menjadi flex container utama, bukan body */
 #game-root {
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center; /* Ini akan memposisikan semua konten di tengah secara vertikal */
+  justify-content: center; 
   min-height: 100vh;
   width: 100%;
 }
@@ -215,7 +214,6 @@ h2 {
 /* ====================================================== */
 /* Pop-up & Modal */
 /* ====================================================== */
-/* src/css/style.css */
 
 #effect-popup {
   position: fixed;
