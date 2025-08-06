@@ -1,5 +1,3 @@
-// src/js/index.js
-
 import "../css/style.css";
 import { initGame } from "./components/game.js";
 
@@ -9,8 +7,8 @@ import enemyImgSrc from "../assets/images/duryodana.png";
 
 import backgroundMusicSrc from "../assets/audio/bg_battle_music.mp3";
 
-// --- PENYESUAIAN ---
-// Deklarasikan variabel ini di sini, di luar fungsi main,
+
+// Deklarasikan variabel di luar fungsi main,
 // agar bisa diakses oleh semua fungsi dalam file ini.
 let gameHasStarted = false;
 
@@ -19,7 +17,6 @@ function main() {
   const gameRoot = document.getElementById("game-root");
   const notice = document.getElementById("compatibility-notice");
 
-  // Deklarasi `let gameHasStarted = false;` dipindahkan ke atas
 
   function checkScreenSize() {
     if (window.innerWidth < 768) {
@@ -29,7 +26,6 @@ function main() {
       gameRoot.classList.remove("hidden");
       notice.classList.add("hidden");
 
-      // Sekarang 'gameHasStarted' bisa diakses dengan aman di sini
       if (!gameHasStarted) {
         gameHasStarted = true;
         initializeAndStartGame();
